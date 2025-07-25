@@ -3,7 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/DOID_14330
+  name: "\tParkinson's disease"
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002435
+  name: Striatum
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -20,6 +26,11 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- identifier: 0000-0002-5937-7537
+  name: Mayorquin, Heberto
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
@@ -30,6 +41,16 @@ description: "This Dandiset contains all raw and primary-processed data underlyi
 ethicsApproval: []
 id: DANDI:001538/draft
 identifier: DANDI:001538
+keywords:
+- Parkinson disease,
+- neurodegeneration
+- dopamine depletion
+- striatum
+- 'levodopa-induced dyskinesia '
+- dSPNs
+- iSPNs
+- indirect pathway
+- LID
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -43,7 +64,15 @@ protocol:
 - https://www.protocols.io/view/rating-of-levodopa-induced-dyskinesia-in-6-ohda-le-5jyl8dm8rg2w/v1
 - https://www.protocols.io/view/ex-vivo-mouse-brain-patch-clamp-recordings-combine-5qpvokxp9l4o/v1
 - https://www.protocols.io/view/mouse-stereotaxic-surgeries-for-intracranial-viral-81wgby191vpk/v1
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1101/2025.01.02.631090
+  name: State-dependent modulation of spiny projection neurons controls levodopa-induced
+    dyskinesia in a mouse model of Parkinson’s disease
+  relation: dcite:IsDescribedBy
+  repository: bioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2025.01.02.631090v2
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
