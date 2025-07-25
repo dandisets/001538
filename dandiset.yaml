@@ -10,6 +10,12 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0002435
   name: Striatum
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_4023029
+  name: indirect pathway medium spiny neuron
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_4023026
+  name: direct pathway medium spiny neuron
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -31,6 +37,7 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
+- {}
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
@@ -59,11 +66,11 @@ name: State-dependent modulation of spiny projection neurons controlslevodopa-in
   dyskinesia in a mouse model of Parkinson’s disease
 protocol:
 - https://www.protocols.io/view/unilateral-6-hydroxydopamine-lesion-mouse-model-of-kqdg3q5w1v25/v1
-- https://www.protocols.io/view/ex-vivo-imaging-of-dendritic-calcium-transients-an-4r3l294nqv1y/v1
 - https://www.protocols.io/view/ex-vivo-imaging-of-genetically-encoded-sensors-wit-n92ldry68g5b/v1
 - https://www.protocols.io/view/rating-of-levodopa-induced-dyskinesia-in-6-ohda-le-5jyl8dm8rg2w/v1
-- https://www.protocols.io/view/ex-vivo-mouse-brain-patch-clamp-recordings-combine-5qpvokxp9l4o/v1
 - https://www.protocols.io/view/mouse-stereotaxic-surgeries-for-intracranial-viral-81wgby191vpk/v1
+- https://www.protocols.io/view/ex-vivo-mouse-brain-patch-clamp-recordings-combine-5qpvokxp9l4o/v1
+- https://www.protocols.io/view/ex-vivo-imaging-of-dendritic-calcium-transients-an-4r3l294nqv1y/v1
 relatedResource:
 - identifier: https://doi.org/10.1101/2025.01.02.631090
   name: State-dependent modulation of spiny projection neurons controls levodopa-induced
