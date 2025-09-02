@@ -37,6 +37,7 @@ contributor:
   name: Mayorquin, Heberto
   roleName:
   - dcite:DataCurator
+  - dcite:Software
   schemaKey: Person
 - identifier: 0000-0002-7097-9387
   includeInCitation: true
@@ -90,6 +91,11 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
+- identifier: https://ror.org/000e0be47
+  name: Northwestern University
+  roleName:
+  - dcite:Affiliation
+  schemaKey: Organization
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
@@ -97,7 +103,8 @@ description: "This Dandiset contains all raw and primary-processed data underlyi
   spans multimodal recordings from adult C57BL/6J mice rendered hemiparkinsonian with
   a unilateral 6-hydroxydopamine (6-OHDA) lesion of the medial forebrain bundle, followed
   by chronic levodopa dosing to provoke on-/off-state dyskinesia"
-ethicsApproval: []
+ethicsApproval:
+- {}
 id: DANDI:001538/draft
 identifier: DANDI:001538
 keywords:
