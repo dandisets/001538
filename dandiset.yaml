@@ -23,9 +23,10 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: State-dependent modulation of spiny projection neurons controlslevodopa-induced
-  dyskinesia in a mouse model of Parkinson’s disease (2025). (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
+citation: Zhai, Shenyu; Cui, Qiao-Ling; Surmeier, James; Wokosin, David; Tkatch, Tatiana;
+  Graybiel, Ann; Crittenden, Jill (2025) State-dependent modulation of spiny projection
+  neurons controlslevodopa-induced dyskinesia in a mouse model of Parkinson’s disease
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
 contributor:
 - awardNumber: 1 R01 CA 123456-01A1
   name: National Institutes of Health (NIH)
@@ -36,6 +37,58 @@ contributor:
   name: Mayorquin, Heberto
   roleName:
   - dcite:DataCurator
+  schemaKey: Person
+- identifier: 0000-0002-7097-9387
+  includeInCitation: true
+  name: Zhai, Shenyu
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:Researcher
+  - dcite:Software
+  schemaKey: Person
+- identifier: 0000-0002-2074-9655
+  includeInCitation: true
+  name: Cui, Qiao-Ling
+  roleName:
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-6376-5225
+  includeInCitation: true
+  name: Surmeier, James
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:Researcher
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0002-5497-6944
+  includeInCitation: true
+  name: Wokosin, David
+  roleName:
+  - dcite:Researcher
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-6626-7435
+  includeInCitation: true
+  name: Tkatch, Tatiana
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-4326-7720
+  includeInCitation: true
+  name: Graybiel, Ann
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-1981-1917
+  includeInCitation: true
+  name: Crittenden, Jill
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
   schemaKey: Person
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
