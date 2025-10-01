@@ -96,7 +96,6 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- {}
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
@@ -142,6 +141,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.02.631090v2
+- identifier: 10.5281/zenodo.14589125.
+  name: Key Resources Table_Zhai et al. 2025_rev2 in .csv format
+  relation: dcite:IsMetadataFor
+  repository: zenodo
+  resourceType: dcite:Other
+  schemaKey: Resource
+  url: https://zenodo.org/records/14589126
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
