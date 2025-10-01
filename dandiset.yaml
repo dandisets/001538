@@ -23,22 +23,11 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Zhai, Shenyu; Cui, Qiao-Ling; Surmeier, James; Wokosin, David; Tkatch, Tatiana;
-  Graybiel, Ann; Crittenden, Jill (2025) State-dependent modulation of spiny projection
-  neurons controlslevodopa-induced dyskinesia in a mouse model of Parkinson’s disease
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
+citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
+  Jill; Graybiel, Ann; Surmeier, James (2025) State-dependent modulation of spiny
+  projection neurons controlslevodopa-induced dyskinesia in a mouse model of Parkinson’s
+  disease (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
 contributor:
-- awardNumber: 1 R01 CA 123456-01A1
-  name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: 0000-0002-5937-7537
-  name: Mayorquin, Heberto
-  roleName:
-  - dcite:DataCurator
-  - dcite:Software
-  schemaKey: Person
 - identifier: 0000-0002-7097-9387
   includeInCitation: true
   name: Zhai, Shenyu
@@ -54,15 +43,6 @@ contributor:
   roleName:
   - dcite:Researcher
   schemaKey: Person
-- identifier: 0000-0002-6376-5225
-  includeInCitation: true
-  name: Surmeier, James
-  roleName:
-  - dcite:Author
-  - dcite:FundingAcquisition
-  - dcite:Researcher
-  - dcite:Supervision
-  schemaKey: Person
 - identifier: 0000-0002-5497-6944
   includeInCitation: true
   name: Wokosin, David
@@ -77,13 +57,6 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- identifier: 0000-0002-4326-7720
-  includeInCitation: true
-  name: Graybiel, Ann
-  roleName:
-  - dcite:Author
-  - dcite:Researcher
-  schemaKey: Person
 - identifier: 0000-0002-1981-1917
   includeInCitation: true
   name: Crittenden, Jill
@@ -91,11 +64,39 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
+- identifier: 0000-0002-4326-7720
+  includeInCitation: true
+  name: Graybiel, Ann
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- identifier: 0000-0002-6376-5225
+  includeInCitation: true
+  name: Surmeier, James
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:Researcher
+  - dcite:Supervision
+  schemaKey: Person
 - identifier: https://ror.org/000e0be47
   name: Northwestern University
   roleName:
   - dcite:Affiliation
   schemaKey: Organization
+- identifier: 0000-0002-5937-7537
+  name: Mayorquin, Heberto
+  roleName:
+  - dcite:DataCurator
+  - dcite:Software
+  schemaKey: Person
+- awardNumber: 1 R01 CA 123456-01A1
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- {}
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
