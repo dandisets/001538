@@ -71,7 +71,8 @@ contributor:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- identifier: 0000-0002-6376-5225
+- email: j-surmeier@northwestern.edu
+  identifier: 0000-0002-6376-5225
   includeInCitation: true
   name: Surmeier, James
   roleName:
@@ -79,6 +80,7 @@ contributor:
   - dcite:FundingAcquisition
   - dcite:Researcher
   - dcite:Supervision
+  - dcite:ContactPerson
   schemaKey: Person
 - identifier: https://ror.org/000e0be47
   name: Northwestern University
