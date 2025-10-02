@@ -24,7 +24,7 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
-  Jill; Graybiel, Ann; Surmeier, James (2025) State-dependent modulation of spiny
+  Jill; Graybiel, Ann; Surmeier,  D. James (2025) State-dependent modulation of spiny
   projection neurons controlslevodopa-induced dyskinesia in a mouse model of Parkinson’s
   disease (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
 contributor:
@@ -91,7 +91,7 @@ contributor:
 - email: j-surmeier@northwestern.edu
   identifier: 0000-0002-6376-5225
   includeInCitation: true
-  name: Surmeier, James
+  name: Surmeier,  D. James
   roleName:
   - dcite:Author
   - dcite:FundingAcquisition
@@ -170,7 +170,7 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.02.631090v2
-- identifier: 10.5281/zenodo.14589125.
+- identifier: https://doi.org/10.5281/zenodo.14589126.
   name: Key Resources Table_Zhai et al. 2025_rev2 in .csv format
   relation: dcite:IsMetadataFor
   repository: zenodo
