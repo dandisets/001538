@@ -43,12 +43,14 @@ contributor:
   roleName:
   - dcite:Researcher
   schemaKey: Person
-- identifier: 0000-0002-5497-6944
+- email: scopedoc@northwestern.edu
+  identifier: 0000-0002-5497-6944
   includeInCitation: true
   name: Wokosin, David
   roleName:
   - dcite:Researcher
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - identifier: 0000-0001-6626-7435
   includeInCitation: true
@@ -98,6 +100,11 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- identifier: 0000-0002-1217-277X
+  name: Sun, Linqing
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
