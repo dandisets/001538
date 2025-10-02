@@ -172,9 +172,9 @@ relatedResource:
   url: https://www.biorxiv.org/content/10.1101/2025.01.02.631090v2
 - identifier: https://doi.org/10.5281/zenodo.14589126.
   name: Key Resources Table_Zhai et al. 2025_rev2 in .csv format
-  relation: dcite:IsMetadataFor
+  relation: dcite:IsSupplementedBy
   repository: zenodo
-  resourceType: dcite:Other
+  resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://zenodo.org/records/14589126
 repository: https://dandiarchive.org
