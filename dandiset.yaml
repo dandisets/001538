@@ -67,30 +67,54 @@ assetsSummary:
   - TwoPhotonSeries
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
   Jill; Graybiel, Ann; Surmeier,  D. James (2026) State-dependent modulation of spiny
-  projection neurons controlslevodopa-induced dyskinesia in a mouse model of Parkinson’s
+  projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s
   disease (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
 contributor:
-- identifier: 0000-0002-7097-9387
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  identifier: 0000-0002-7097-9387
   includeInCitation: true
   name: Zhai, Shenyu
   roleName:
   - dcite:Author
-  - dcite:DataCollector
-  - dcite:Researcher
-  - dcite:Software
   - dcite:Conceptualization
+  - dcite:DataCurator
   - dcite:FormalAnalysis
+  - dcite:FundingAcquisition
+  - dcite:Investigation
   - dcite:Methodology
+  - dcite:Resources
+  - dcite:Software
+  - dcite:Validation
+  - dcite:Visualization
   schemaKey: Person
-- identifier: 0000-0002-2074-9655
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04tgjxk96
+    name: Research Network (United States)
+    schemaKey: Affiliation
+  identifier: 0000-0002-2074-9655
   includeInCitation: true
   name: Cui, Qiao-Ling
   roleName:
-  - dcite:Researcher
   - dcite:Author
-  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Methodology
+  - dcite:Resources
+  - dcite:Validation
+  - dcite:Visualization
   schemaKey: Person
-- email: scopedoc@northwestern.edu
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  email: scopedoc@northwestern.edu
   identifier: 0000-0002-5497-6944
   includeInCitation: true
   name: Wokosin, David
@@ -100,49 +124,87 @@ contributor:
   - dcite:ContactPerson
   - dcite:DataCollector
   schemaKey: Person
-- identifier: 0000-0002-1217-277X
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  identifier: 0000-0002-1217-277X
   name: Sun, Linqing
   roleName:
   - dcite:Author
-  - dcite:Researcher
-  - dcite:DataCollector
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:Validation
   schemaKey: Person
-- identifier: 0000-0001-6626-7435
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04tgjxk96
+    name: Research Network (United States)
+    schemaKey: Affiliation
+  identifier: 0000-0001-6626-7435
   includeInCitation: true
   name: Tkatch, Tatiana
   roleName:
   - dcite:Author
   - dcite:Researcher
   schemaKey: Person
-- identifier: 0000-0002-1981-1917
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05ymca674
+    name: McGovern Institute for Brain Research
+    schemaKey: Affiliation
+  identifier: 0000-0002-1981-1917
   includeInCitation: true
   name: Crittenden, Jill
   roleName:
   - dcite:Author
-  - dcite:Researcher
   - dcite:Conceptualization
+  - dcite:Methodology
+  - dcite:Resources
   schemaKey: Person
-- identifier: 0000-0002-4326-7720
+- affiliation:
+  - identifier: https://ror.org/042nb2s44
+    name: Massachusetts Institute of Technology
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05ymca674
+    name: McGovern Institute for Brain Research
+    schemaKey: Affiliation
+  identifier: 0000-0002-4326-7720
   includeInCitation: true
   name: Graybiel, Ann
   roleName:
   - dcite:Author
-  - dcite:Researcher
   - dcite:Conceptualization
+  - dcite:FundingAcquisition
+  - dcite:Resources
+  - dcite:Supervision
   schemaKey: Person
-- email: j-surmeier@northwestern.edu
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/04tgjxk96
+    name: Research Network (United States)
+    schemaKey: Affiliation
+  email: j-surmeier@northwestern.edu
   identifier: 0000-0002-6376-5225
   includeInCitation: true
   name: Surmeier,  D. James
   roleName:
   - dcite:Author
-  - dcite:FundingAcquisition
-  - dcite:Researcher
-  - dcite:Supervision
   - dcite:ContactPerson
   - dcite:Conceptualization
-  - dcite:ProjectLeader
+  - dcite:FundingAcquisition
   - dcite:Methodology
+  - dcite:ProjectLeader
+  - dcite:Resources
+  - dcite:Supervision
+  - dcite:Validation
+  - dcite:Visualization
   schemaKey: Person
 - identifier: https://ror.org/000e0be47
   name: Northwestern University
@@ -171,6 +233,17 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- awardNumber: NS34696
+  identifier: https://ror.org/01s5ya894
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/05nzwyq50
+  name: JPB Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
@@ -182,20 +255,23 @@ ethicsApproval: []
 id: DANDI:001538/draft
 identifier: DANDI:001538
 keywords:
-- Parkinson disease,
+- Parkinson's disease
 - neurodegeneration
 - dopamine depletion
 - striatum
-- 'levodopa-induced dyskinesia '
+- levodopa-induced dyskinesia
 - dSPNs
 - iSPNs
-- indirect pathway
+- indirect pathway spiny projection neuron
 - LID
+- muscarinic M1 receptor
+- CalDAG-GEFI
+- cholinergic interneurons
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001538/versions/draft/assets/
-name: State-dependent modulation of spiny projection neurons controlslevodopa-induced
+name: State-dependent modulation of spiny projection neurons controls levodopa-induced
   dyskinesia in a mouse model of Parkinson’s disease
 protocol:
 - https://www.protocols.io/view/unilateral-6-hydroxydopamine-lesion-mouse-model
@@ -223,6 +299,14 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://zenodo.org/records/14589126
+- identifier: https://doi.org/10.1126/sciadv.adv8224
+  name: State-dependent modulation of spiny projection neurons controls levodopa-induced
+    dyskinesia in a mouse model of Parkinson’s disease
+  relation: dcite:IsDescribedBy
+  repository: Science Advances
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.science.org/doi/10.1126/sciadv.adv8224
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
