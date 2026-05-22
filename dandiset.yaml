@@ -24,6 +24,10 @@ assetsSummary:
   approach:
   - name: electrophysiological approach
     schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: optogenetic approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -33,9 +37,15 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 36622571355
-  numberOfFiles: 425
-  numberOfSubjects: 144
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 41913485964
+  numberOfFiles: 468
+  numberOfSubjects: 185
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -45,6 +55,12 @@ assetsSummary:
   - ProcessingModule
   - CurrentClampSeries
   - CurrentClampStimulusSeries
+  - PlaneSegmentation
+  - TwoPhotonSeries
+  - ImagingPlane
+  - OpticalChannel
+  - VoltageClampSeries
+  - OptogeneticSeries
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
   Jill; Graybiel, Ann; Surmeier,  D. James (2026) State-dependent modulation of spiny
   projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s
