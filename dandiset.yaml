@@ -64,7 +64,7 @@ assetsSummary:
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
   Jill; Graybiel, Ann; Surmeier,  D. James (2026) State-dependent modulation of spiny
   projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s
-  disease (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
+  disease (Version 0.260527.1302) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001538/0.260527.1302
 contributor:
 - affiliation:
   - identifier: https://ror.org/000e0be47
@@ -241,14 +241,16 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
+datePublished: '2026-05-27T13:02:08.698503+00:00'
 description: "This Dandiset contains all raw and primary-processed data underlying
   the study “State-dependent modulation of striatal spiny projection neurons controls
   levodopa-induced dyskinesia in a mouse model of Parkinson’s disease”\nThe collection
   spans multimodal recordings from adult C57BL/6J mice rendered hemiparkinsonian with
   a unilateral 6-hydroxydopamine (6-OHDA) lesion of the medial forebrain bundle, followed
   by chronic levodopa dosing to provoke on-/off-state dyskinesia"
+doi: 10.48324/dandi.001538/0.260527.1302
 ethicsApproval: []
-id: DANDI:001538/draft
+id: DANDI:001538/0.260527.1302
 identifier: DANDI:001538
 keywords:
 - Parkinson's disease
@@ -266,7 +268,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001538/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001538/0.260527.1302/assets.yaml
 name: State-dependent modulation of spiny projection neurons controls levodopa-induced
   dyskinesia in a mouse model of Parkinson’s disease
 protocol:
@@ -279,6 +281,18 @@ protocol:
 - https://www.protocols.io/view/perfusion-and-fixation-of-brain-tissue-for-fresh-f-bp2l6xpr1lqe/v1
 - https://www.protocols.io/view/sparse-labeling-enabled-confocal-imaging-of-dendri-bp2l6dn7rvqe/v1
 - https://www.protocols.io/view/preparation-of-ex-vivo-brain-slices-for-physiology-dm6gp328jvzp/v2
+publishedBy:
+  endDate: '2026-05-27T13:02:08.698503+00:00'
+  id: urn:uuid:dc0f8ae9-9cff-4811-8ecd-fbe42bc7a2d2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-27T13:02:08.698503+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b0a4b7e0-a1af-4b00-a6ad-6167e89a52ca
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1101/2025.01.02.631090
   name: State-dependent modulation of spiny projection neurons controls levodopa-induced
@@ -306,6 +320,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001538/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001538/0.260527.1302
+version: 0.260527.1302
 wasGeneratedBy: []
