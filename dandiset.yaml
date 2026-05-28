@@ -5,7 +5,7 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
 about:
 - identifier: http://purl.obolibrary.org/obo/DOID_14330
-  name: "\tParkinson's disease"
+  name: Parkinson's disease
   schemaKey: Disorder
 - identifier: http://purl.obolibrary.org/obo/UBERON_0002435
   name: Striatum
@@ -16,6 +16,21 @@ about:
 - identifier: http://purl.obolibrary.org/obo/CL_4023026
   name: direct pathway medium spiny neuron
   schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_0000108
+  name: cholinergic neuron
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_0020008
+  name: striatal cholinergic-GABAergic neuron
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/HP_0100660
+  name: Dyskinesia
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/HP_0002067
+  name: Bradykinesia
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/HP_0002487
+  name: Hyperkinetic movements
+  schemaKey: Disorder
 access:
 - embargoedUntil: '2026-05-27'
   schemaKey: AccessRequirements
@@ -303,6 +318,13 @@ relatedResource:
   resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://www.science.org/doi/10.1126/sciadv.adv8224
+- identifier: https://github.com/catalystneuro/surmeier-lab-to-nwb
+  name: 'surmeier-lab-to-nwb: NWB conversion scripts for the Surmeier Lab data'
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/surmeier-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
