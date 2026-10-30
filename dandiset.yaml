@@ -256,12 +256,29 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
-description: "This Dandiset contains all raw and primary-processed data underlying
-  the study “State-dependent modulation of striatal spiny projection neurons controls
-  levodopa-induced dyskinesia in a mouse model of Parkinson’s disease”\nThe collection
+description: "This Dandiset contains raw and primary-processed data underlying the
+  study “State-dependent modulation of striatal spiny projection neurons controls
+  levodopa-induced dyskinesia in a mouse model of Parkinson’s disease”.\nThe collection
   spans multimodal recordings from adult C57BL/6J mice rendered hemiparkinsonian with
   a unilateral 6-hydroxydopamine (6-OHDA) lesion of the medial forebrain bundle, followed
-  by chronic levodopa dosing to provoke on-/off-state dyskinesia"
+  by chronic levodopa dosing to provoke on-/off-state dyskinesia.\n\nNot included:
+  some data analyzed in the paper are not part of this Dandiset. Figure numbers refer
+  to the published article in Science Advances.\n1. Somatic and dendritic patch-clamp
+  recordings from unlesioned control and 6-OHDA-lesioned mice (Figures 1E, 1F, 1I,
+  3C, 3D and 3F). The excitability data here cover the levodopa off-state, on-state
+  and on-state with antagonist groups.\n2. Open-field data (Figure 10).\n3. The first
+  pair of dendritic recording sites of the dSPN recorded on 2019-04-11 (cell 1, on-state
+  with SCH23390, Figure 1I). Only its second pair is available.\n4. Detector background
+  images for the GRAB-ACh3.0 imaging (Figure 5). The paper subtracts a background
+  measured at the same photomultiplier tube voltage with zero laser power. These images
+  were not shared.\n5. One of the 12 off-state regions that the lab's analysis tables
+  count for burst stimulation in the GRAB-ACh3.0 experiments (fig. S1). The other
+  11 are included.\n\nItems 1 and 2 are in the paper's raw-data archive on Zenodo
+  (https://doi.org/10.5281/zenodo.17260198).\n\nKnown limitations: in somatic excitability
+  recordings, some cells skip or repeat a current step, as recorded. In 57 of 1276
+  dendritic excitability trials (6 recording days), the voltage recording stops at
+  1 s, before the current injections, so these trials contain no record of the evoked
+  spikes; their calcium imaging is complete."
 ethicsApproval: []
 id: DANDI:001538/draft
 identifier: DANDI:001538
@@ -303,7 +320,7 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.02.631090v2
-- identifier: https://doi.org/10.5281/zenodo.14589126.
+- identifier: https://doi.org/10.5281/zenodo.14589126
   name: Key Resources Table_Zhai et al. 2025_rev2 in .csv format
   relation: dcite:IsSupplementedBy
   repository: zenodo
@@ -325,6 +342,13 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/surmeier-lab-to-nwb
+- identifier: https://doi.org/10.5281/zenodo.17260198
+  name: Zhai et al. 2025 Raw data
+  relation: dcite:IsSupplementedBy
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://zenodo.org/records/17260198
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
