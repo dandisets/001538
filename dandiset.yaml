@@ -56,8 +56,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 93400123065
-  numberOfFiles: 1284
+  numberOfBytes: 93997701108
+  numberOfFiles: 1288
   numberOfSubjects: 173
   schemaKey: AssetsSummary
   species:
@@ -274,11 +274,14 @@ description: "This Dandiset contains raw and primary-processed data underlying t
   11 are included.\n6. The 80 min video of the first levodopa session of mouse 1590
   (Figure 8), on 2018-02-23. The lab's file for it is a copy of the mouse's 20 min
   video of its second session.\n\nItems 1 and 2 are in the paper's raw-data archive
-  on Zenodo (https://doi.org/10.5281/zenodo.17260198).\n\nKnown limitations: in somatic
-  excitability recordings, some cells skip or repeat a current step, as recorded.
-  In 57 of 1276 dendritic excitability trials (6 recording days), the voltage recording
-  stops at 1 s, before the current injections, so these trials contain no record of
-  the evoked spikes; their calcium imaging is complete."
+  on Zenodo (https://doi.org/10.5281/zenodo.17260198). The paper's measurements, such
+  as spine densities and rotation counts, are in its tables on Zenodo (https://doi.org/10.5281/zenodo.14589035).
+  The rows of the spine and rotation tables are numbered within each table, so they
+  cannot be matched to the files here.\n\nKnown limitations: in somatic excitability
+  recordings, some cells skip or repeat a current step, as recorded. In 57 of 1276
+  dendritic excitability trials (6 recording days), the voltage recording stops at
+  1 s, before the current injections, so these trials contain no record of the evoked
+  spikes; their calcium imaging is complete."
 ethicsApproval: []
 id: DANDI:001538/draft
 identifier: DANDI:001538
@@ -320,13 +323,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.02.631090v2
-- identifier: https://doi.org/10.5281/zenodo.14589126
+- identifier: https://doi.org/10.5281/zenodo.14589125
   name: Key Resources Table_Zhai et al. 2025_rev2 in .csv format
   relation: dcite:IsSupplementedBy
   repository: zenodo
   resourceType: dcite:Dataset
   schemaKey: Resource
-  url: https://zenodo.org/records/14589126
+  url: https://zenodo.org/records/14589125
 - identifier: https://doi.org/10.1126/sciadv.adv8224
   name: State-dependent modulation of spiny projection neurons controls levodopa-induced
     dyskinesia in a mouse model of Parkinson’s disease
@@ -349,6 +352,13 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://zenodo.org/records/17260198
+- identifier: https://doi.org/10.5281/zenodo.14589035
+  name: Zhai et al. 2025 Datasets
+  relation: dcite:IsSupplementedBy
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://zenodo.org/records/14589035
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
