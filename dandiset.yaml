@@ -56,8 +56,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 94195732782
-  numberOfFiles: 1289
+  numberOfBytes: 93400123065
+  numberOfFiles: 1284
   numberOfSubjects: 173
   schemaKey: AssetsSummary
   species:
@@ -271,12 +271,14 @@ description: "This Dandiset contains raw and primary-processed data underlying t
   measured at the same photomultiplier tube voltage with zero laser power. These images
   were not shared.\n5. One of the 12 off-state regions that the lab's analysis tables
   count for burst stimulation in the GRAB-ACh3.0 experiments (fig. S1). The other
-  11 are included.\n\nItems 1 and 2 are in the paper's raw-data archive on Zenodo
-  (https://doi.org/10.5281/zenodo.17260198).\n\nKnown limitations: in somatic excitability
-  recordings, some cells skip or repeat a current step, as recorded. In 57 of 1276
-  dendritic excitability trials (6 recording days), the voltage recording stops at
-  1 s, before the current injections, so these trials contain no record of the evoked
-  spikes; their calcium imaging is complete."
+  11 are included.\n6. The 80 min video of the first levodopa session of mouse 1590
+  (Figure 8), on 2018-02-23. The lab's file for it is a copy of the mouse's 20 min
+  video of its second session.\n\nItems 1 and 2 are in the paper's raw-data archive
+  on Zenodo (https://doi.org/10.5281/zenodo.17260198).\n\nKnown limitations: in somatic
+  excitability recordings, some cells skip or repeat a current step, as recorded.
+  In 57 of 1276 dendritic excitability trials (6 recording days), the voltage recording
+  stops at 1 s, before the current injections, so these trials contain no record of
+  the evoked spikes; their calcium imaging is complete."
 ethicsApproval: []
 id: DANDI:001538/draft
 identifier: DANDI:001538
