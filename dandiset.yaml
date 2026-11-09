@@ -273,15 +273,20 @@ description: "This Dandiset contains raw and primary-processed data underlying t
   count for burst stimulation in the GRAB-ACh3.0 experiments (fig. S1). The other
   11 are included.\n6. The 80 min video of the first levodopa session of mouse 1590
   (Figure 8), on 2018-02-23. The lab's file for it is a copy of the mouse's 20 min
-  video of its second session.\n\nItems 1 and 2 are in the paper's raw-data archive
-  on Zenodo (https://doi.org/10.5281/zenodo.17260198). The paper's measurements, such
-  as spine densities and rotation counts, are in its tables on Zenodo (https://doi.org/10.5281/zenodo.14589035).
-  The rows of the spine and rotation tables are numbered within each table, so they
-  cannot be matched to the files here.\n\nKnown limitations: in somatic excitability
-  recordings, some cells skip or repeat a current step, as recorded. In 57 of 1276
-  dendritic excitability trials (6 recording days), the voltage recording stops at
-  1 s, before the current injections, so these trials contain no record of the evoked
-  spikes; their calcium imaging is complete."
+  video of its second session.\n7. Five of the 23 mice of Figure 8: wild type 7741,
+  7742 and 7744, and CDGI knockout 2346 and 2347.\n\nItems 1 and 2 are in the paper's
+  raw-data archive on Zenodo (https://doi.org/10.5281/zenodo.17260198). The paper's
+  measurements, such as spine densities and rotation counts, are in its tables on
+  Zenodo (https://doi.org/10.5281/zenodo.14589035). The rows of the spine and rotation
+  tables are numbered within each table, so they cannot be matched to the files here.\n
+  \nKnown limitations: in somatic excitability recordings, some cells skip or repeat
+  a current step, as recorded. In 57 of 1276 dendritic excitability trials (6 recording
+  days), the voltage recording stops at 1 s, before the current injections, so these
+  trials contain no record of the evoked spikes; their calcium imaging is complete.
+  The abnormal involuntary movement (AIM) scores of the CDGI mice are the lab's scoring
+  sheets for 21 mice, which match the preprint. The published Figure 8 differs from
+  them in most sessions and does not include mice 5871, 4123 and 4124. The scores
+  of Figure 10 match the paper."
 ethicsApproval: []
 id: DANDI:001538/draft
 identifier: DANDI:001538
