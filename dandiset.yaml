@@ -39,8 +39,6 @@ assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
-  - name: optogenetic approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
@@ -50,33 +48,32 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: two-photon microscopy technique
+  - name: current clamp technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: voltage clamp technique
     schemaKey: MeasurementTechniqueType
-  - name: current clamp technique
+  - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 121648604603
-  numberOfFiles: 1705
-  numberOfSubjects: 300
+  numberOfBytes: 94195732782
+  numberOfFiles: 1289
+  numberOfSubjects: 173
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
-  - ImagingPlane
-  - OpticalChannel
-  - PlaneSegmentation
-  - TwoPhotonSeries
-  - VoltageClampSeries
-  - OptogeneticSeries
   - CurrentClampSeries
   - CurrentClampStimulusSeries
+  - ProcessingModule
+  - OpticalChannel
+  - ImagingPlane
+  - PlaneSegmentation
   - VoltageClampStimulusSeries
+  - VoltageClampSeries
+  - TwoPhotonSeries
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
   Jill; Graybiel, Ann; Surmeier,  D. James (2026) State-dependent modulation of spiny
   projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s
