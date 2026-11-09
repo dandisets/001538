@@ -58,9 +58,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 88336584454
-  numberOfFiles: 848
-  numberOfSubjects: 230
+  numberOfBytes: 121648604603
+  numberOfFiles: 1705
+  numberOfSubjects: 300
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -76,6 +76,7 @@ assetsSummary:
   - OptogeneticSeries
   - CurrentClampSeries
   - CurrentClampStimulusSeries
+  - VoltageClampStimulusSeries
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
   Jill; Graybiel, Ann; Surmeier,  D. James (2026) State-dependent modulation of spiny
   projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s
