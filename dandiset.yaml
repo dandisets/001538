@@ -37,9 +37,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -56,8 +56,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 93997701108
-  numberOfFiles: 1288
+  numberOfBytes: 93996192926
+  numberOfFiles: 1287
   numberOfSubjects: 173
   schemaKey: AssetsSummary
   species:
@@ -65,11 +65,11 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - ProcessingModule
+  - ImagingPlane
+  - OpticalChannel
   - CurrentClampSeries
   - CurrentClampStimulusSeries
-  - ProcessingModule
-  - OpticalChannel
-  - ImagingPlane
   - PlaneSegmentation
   - VoltageClampStimulusSeries
   - VoltageClampSeries
