@@ -77,7 +77,7 @@ assetsSummary:
 citation: Zhai, Shenyu; Cui, Qiao-Ling; Wokosin, David; Tkatch, Tatiana; Crittenden,
   Jill; Graybiel, Ann; Surmeier, D. James (2026) State-dependent modulation of spiny
   projection neurons controls levodopa-induced dyskinesia in a mouse model of Parkinson’s
-  disease (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001538/draft
+  disease (Version 0.261124.1858) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001538/0.261124.1858
 contributor:
 - affiliation:
   - identifier: https://ror.org/000e0be47
@@ -254,6 +254,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-07-23T01:46:29.065452+00:00'
+datePublished: '2026-11-24T18:58:32.344956+00:00'
 description: "This Dandiset contains raw and primary-processed data underlying the
   study “State-dependent modulation of striatal spiny projection neurons controls
   levodopa-induced dyskinesia in a mouse model of Parkinson’s disease”.\nThe collection
@@ -297,8 +298,9 @@ description: "This Dandiset contains raw and primary-processed data underlying t
   are the lab's scoring sheets for 21 mice, which match the preprint. The published
   Figure 8 differs from them in most sessions and does not include mice 5871, 4123
   and 4124. The scores of Figure 10 match the paper."
+doi: 10.48324/dandi.001538/0.261124.1858
 ethicsApproval: []
-id: DANDI:001538/draft
+id: DANDI:001538/0.261124.1858
 identifier: DANDI:001538
 keywords:
 - Parkinson's disease
@@ -316,7 +318,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001538/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001538/0.261124.1858/assets.yaml
 name: State-dependent modulation of spiny projection neurons controls levodopa-induced
   dyskinesia in a mouse model of Parkinson’s disease
 protocol:
@@ -329,6 +331,18 @@ protocol:
 - https://www.protocols.io/view/perfusion-and-fixation-of-brain-tissue-for-fresh-f-bp2l6xpr1lqe/v1
 - https://www.protocols.io/view/sparse-labeling-enabled-confocal-imaging-of-dendri-bp2l6dn7rvqe/v1
 - https://www.protocols.io/view/preparation-of-ex-vivo-brain-slices-for-physiology-dm6gp328jvzp/v2
+publishedBy:
+  endDate: '2026-11-24T18:58:32.344956+00:00'
+  id: urn:uuid:fa7f8959-0186-42f3-a28f-4ce03a969272
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-24T18:58:32.344956+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:119214f6-c1d6-4d3b-b5fa-de3b784b677f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1101/2025.01.02.631090
   name: State-dependent modulation of spiny projection neurons controls levodopa-induced
@@ -374,9 +388,47 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://zenodo.org/records/14589035
+releaseNotes: "This version re-converts the whole dataset from the lab's data to fix
+  the problems found by a reproduction attempt (https://github.com/catalystneuro/surmeier-lab-to-nwb/issues/41).
+  It has 391 NWB files and 897 behaviour videos (1288 assets), against 468 assets
+  in 0.260527.1302. File names, session IDs and some subject IDs changed, so code
+  that uses the paths of the previous version needs updating.\n\nChanges in the files:\n
+  \n- File organization: one file per mouse and recording day for patch clamp, Sr2+-oEPSC,
+  GRAB-ACh and two-photon spine density, one file per mouse for the confocal spine
+  stacks, and one file per mouse and levodopa session for the behaviour. In the previous
+  version, recordings from the same day overwrote one another, so some cells, regions
+  and mice were missing.\n- Data added from the lab's share: the Figure 7E oxo-M dendritic
+  line scans, all 87 Nikon confocal stacks of Figure 4J and Supplementary Figure 5
+  (the previous version had 10), the second (\"real\") dendritic patch at four sites,
+  and the line-scan images of trials whose scan line changed length.\n- Dendritic
+  stimulus: the theta-burst command (three 2 nA, 2 ms pulses from 1000 ms) is stored.
+  It was written as all zeros.\n- Sr2+-oEPSC light: each flash is a row of an `OptogeneticPulsesTable`
+  with its exact start and stop. The previous 1 kHz series missed most of the 0.3
+  ms pulses.\n- Sweep times: every sweep sits at the time it was recorded, taken from
+  Prairie View's `Sequence` time, with per-sample timestamps. The previous files stored
+  the sweeps of a cell back to back, which placed later sweeps too early.\n- Conditions:
+  control and 6-OHDA spine stacks are labelled `UnlesionedControl` and `LesionedControl`
+  instead of `OffState`. The patch-clamp sweeps have `state` and `drug` columns, so
+  baseline sweeps in files of drug experiments can be told apart.\n- Subjects: spine
+  and GRAB-ACh files use the same subject IDs as the patch-clamp files of the same
+  mouse, every file has the mouse's genotype, and the CDGI knockout mice of the behaviour
+  experiments are labelled as knockouts.\n- Names and descriptions: series names give
+  the cell, site and dye (for example `LineScanAlexa568Cell1Proximal1Line2`), session
+  descriptions are shorter, figure numbers follow the published paper, and the related
+  publication is the Science Advances article. The GRAB-ACh reference images are described
+  as Prairie View reference images. The `recordings_index` processing module is renamed
+  `icephys`.\n- Behaviour videos: stored as browser-playable copies without the audio
+  track, linked from the NWB files. One video of mouse 1590 that duplicated another
+  is left out, and the file says so.\n- Ontology terms: species, institution, experimenters
+  (ORCID iDs), the C57BL/6J strain and the brain regions are annotated with external
+  resource terms.\n\nChanges in the Dandiset metadata:\n\n- The description lists
+  the data the paper reports that the lab did not share with us, with a link to the
+  paper's own data archive (https://doi.org/10.5281/zenodo.17260198), and the known
+  limitations, including that the Figure 8 abnormal involuntary movement scores are
+  the preprint version of that figure."
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001538/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001538/0.261124.1858
+version: 0.261124.1858
 wasGeneratedBy: []
